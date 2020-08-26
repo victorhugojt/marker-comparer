@@ -1,0 +1,30 @@
+{
+  "name": "marker-comparer",
+  "version": "1.0.0",
+  "description": "Advance NodeJS Perficient Training",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "node ./dist/src/index.js",
+    "test": "echo \"hi\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorhugojt/marker-comparer.git"
+  },
+  "keywords": [
+    "NodeJS"
+  ],
+  "author": "victorhugojt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/victorhugojt/marker-comparer/issues"
+  },
+  "homepage": "https://github.com/victorhugojt/marker-comparer#readme",
+  "dependencies": {
+    "tslint": "^6.1.3",
+    "typescript": "^4.0.2"
+  }
+}
